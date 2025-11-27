@@ -3,7 +3,13 @@
 
 namespace vsite::oop::v2
 {
-    color::color() : red(0), green(0), blue(0) {}
+    color::color()
+    {
+        red = 0.0;
+        green = 0.0;
+        blue = 0.0;
+    }
+
     color::color(const color&) = default;
     color& color::operator=(const color&) = default;
 
